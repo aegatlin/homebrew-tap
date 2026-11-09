@@ -2,7 +2,7 @@ class Sidecar < Formula
   desc "Connect an iPad as a Sidecar display from the command line"
   homepage "https://github.com/aegatlin/sidecar-cli"
   url "https://github.com/aegatlin/sidecar-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "ea4fdd7a28ffb13c141bd7389475c84794a6c0c0c2add4e4fe58740340b05cde"
   license "MIT"
 
   # Drives Apple's private SidecarCore framework; there is nothing to build on Linux.
