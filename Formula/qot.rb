@@ -1,25 +1,25 @@
 class Qot < Formula
   desc "Quantum of Thought: capture a note from anywhere (`qot get milk`)"
   homepage "https://quantumofthought.com"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/aegatlin/qot/releases/download/cli/v0.4.0/qot_cli-aarch64-apple-darwin.tar.xz"
-      sha256 "73e57c20eee228cd2a91c8e2ec6c1612cb1c6b0cc016a77c4ed5bc3c4e44cbdd"
+      url "https://github.com/aegatlin/qot/releases/download/cli/v0.5.0/qot_cli-aarch64-apple-darwin.tar.xz"
+      sha256 "7ef0a3aa9c88eece40084811c5773e56d2e9603ec72645f7fdd08ef139b8f5a2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/aegatlin/qot/releases/download/cli/v0.4.0/qot_cli-x86_64-apple-darwin.tar.xz"
-      sha256 "ba10eacbf290f1cbb8b9aa9326fa7a23701a7ee4e18a0097220315428dd83027"
+      url "https://github.com/aegatlin/qot/releases/download/cli/v0.5.0/qot_cli-x86_64-apple-darwin.tar.xz"
+      sha256 "3c3239e8451f1fd667caf3e90ae1a78e075cffc01cb24066cfff8b83b995f447"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/aegatlin/qot/releases/download/cli/v0.4.0/qot_cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5457d92760a1ad0a5289920c2837ad4cb633fec3738e291f99284c26fc9c9a81"
+      url "https://github.com/aegatlin/qot/releases/download/cli/v0.5.0/qot_cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "68adf60621f5e4302aaf28fbb5ace877025ab9da687a721e5144c4dd7eedc7c4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/aegatlin/qot/releases/download/cli/v0.4.0/qot_cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bfe125351219f96f1b19abda6dadd57e8d3a782465e9362c80ab2bcb9191e7d2"
+      url "https://github.com/aegatlin/qot/releases/download/cli/v0.5.0/qot_cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "916697601411ba76ff722a873a19cc0822aa773cf6bffcef5c41c43a9f3ca0d1"
     end
   end
   license "AGPL-3.0-only"
